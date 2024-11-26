@@ -1,0 +1,437 @@
+body {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  background: linear-gradient(135deg, rgba(59, 83, 102, 0.9), rgba(78, 108, 131, 0.9));
+  background-size: cover;
+  background-attachment: fixed;
+  /*overflow: hidden;*/
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+}
+
+#global-nav {
+  top: 0;
+  left: 200px;
+  right: 0;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  justify-content: space-between;
+  height: 70px;
+  /*background: rgba(255, 255, 255, 0.1); !* 투명한 흰색 *!*/
+  /*backdrop-filter: blur(10px); !* 글래스모피즘 효과 *!*/
+  border-bottom: 0px solid rgba(255, 255, 255, 0.2);
+  z-index: 10;
+  padding: 20px 0;
+}
+
+.navbar-header {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.navbar-logo {
+  display: flex;
+  align-items: center;
+  margin-bottom: 26px;
+}
+
+.navbar-logo ul.logo {
+  display: flex;
+  align-items: center;
+  margin: 0;
+}
+
+.quick-link {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  list-style-type: none;
+}
+
+.logo, .quick-link {
+  display: inline-block;
+}
+
+.logo li, .quick-link li {
+  display: inline-block;
+}
+
+.quick-link li a {
+  position: relative;
+  padding: 0 10px 0 11px;
+  margin: 0 5px 0 6px;
+  color: #fff;
+}
+
+.quick-button {
+  background-color: rgba(255, 255, 255, 0.0) !important;
+  border: none !important;
+  color: lightgray !important;
+  font-weight: 700!important;
+  font-size: 16px!important;
+}
+
+.quick-button:hover {
+  background-color: rgba(255, 255, 255, 0.0) !important;
+  border: none !important;
+  color: white !important;
+}
+
+.txt {
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.nav.navbar-account.nav-pull-right {
+  display: flex;
+  position: absolute;
+  right: 30px;
+  align-items: center;
+  float: none;
+  height: 100%;
+}
+
+.login-info {
+  display: inline-block;
+  position: relative;
+}
+
+.seller-member, .logout {
+  text-decoration: none;
+}
+
+.main-content {
+  display: flex;
+  flex: 1;
+}
+
+.sellerShop {
+  cursor: pointer;
+  color: lightgray !important;
+  font-weight: 700!important;
+  font-size: 16px!important;
+}
+
+.logo {
+  cursor: pointer;
+}
+
+.side-nav {
+  display: flex;
+  /*position: fixed;*/
+  flex: 0 0 200px;
+  flex-direction: column;
+  height: 100vh;
+  position: relative;
+  left: 0;
+  width: 200px;
+  /*background: rgba(255, 255, 255, 0.1); !* 투명한 흰색 *!*/
+  /*backdrop-filter: blur(10px); !* 글래스모피즘 효과 *!*/
+  /*box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); !* 살짝 그림자 *!*/
+  border-right: 0px solid rgba(255, 255, 255, 0.2);
+  padding: 20px;
+}
+
+.pn-transclude {
+  width: 100%;
+  justify-content: center;
+  position: relative;
+}
+
+.store {
+  border-radius: 20px;
+  padding: 30px 20px;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.1); /* 투명한 흰색 */
+  backdrop-filter: blur(10px); /* 글래스모피즘 효과 */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* 살짝 그림자 */
+  color: white;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+.thumb {
+  display: block;
+
+}
+
+.img-circle {
+  border: 2px solid rgba(0, 0, 0, .1);
+  border-radius: 50%;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+  overflow: clip;
+}
+
+.shop {
+  display: block;
+  margin-top: 13px;
+  margin-bottom: 2px;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 23px;
+  word-break: break-all;
+}
+
+.title-group {
+  font-size: 14px;
+  font-weight: 500;
+  display: block;
+  color: lightgray;
+  text-decoration: none;
+  padding: 10px 0;
+  cursor: pointer;
+}
+
+.title-group:hover {
+  color: white;
+  cursor: pointer;
+}
+
+.accordion-item {
+  background: rgba(83, 83, 83, 0.1) !important; /* 투명한 흰색 */
+  backdrop-filter: blur(10px) !important;; /* 글래스모피즘 효과 */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2) !important;; /* 살짝 그림자 */
+  border: none !important;
+}
+
+#seller-sub-content {
+  flex: 1;
+  margin-top: 70px; /* 네비게이션 바 높이만큼 공간 확보 */
+  padding: 20px;
+  background: whitesmoke !important; /* 투명한 흰색 */
+  backdrop-filter: blur(10px) !important;; /* 글래스모피즘 효과 */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2) !important;; /* 살짝 그림자 */
+  border-radius: 20px;
+  overflow-y: auto;
+}
+
+.content-card {
+  border-radius: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* 그림자 효과 */
+  display: flex;
+  flex-direction: column;
+  /*justify-content: center;*/
+  align-items: center;
+  text-align: center;
+  margin: 10px;
+}
+
+.innerContent.title {
+  margin: 20px;
+  font-size: 20px;
+  font-weight: 700;
+  color: #424040;
+}
+
+#order-status {
+  width: 97.5%;
+  height: 300px;
+  background: linear-gradient(135deg, #6FAED9, #EDCCBD); /* 블루 그라데이션 */
+  color: black; /* 텍스트 색상 */
+}
+
+#store-status {
+  width: 97.5%;
+  height: 100%;
+  background: linear-gradient(135deg, #6FAED9, #d9e5f4); /* 블루 그라데이션 */
+  color: white; /* 텍스트 색상 */
+}
+
+#sales-statistics {
+  width: 97.5%;
+  height: 300px;
+  background: linear-gradient(135deg, #6FAED9, #EDCCBD); /* 블루 그라데이션 */
+  color: white; /* 텍스트 색상 */
+}
+
+.panel-body {
+  width: 100%;
+  padding: 30px;
+  overflow: auto; /* 스크롤 가능 */
+  height: auto;   /* 내용에 따라 자동으로 늘어남 */
+  max-height: 600px; /* 필요하면 최대 높이 설정 */
+}
+
+.panel-list {
+  list-style: none;
+  padding: 0;
+}
+
+.order-summary {
+  display: flex;
+  font-size: 18px;
+  font-weight: 700;
+  color: #1e1d1d;
+}
+
+.number-area {
+  margin-left: 20px;
+}
+
+.each-order {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  align-items: center;
+  background: whitesmoke;
+  border-radius: 10px;
+  height: 50px;
+  width: 100%;
+  padding: 0 10px;
+  box-sizing: border-box;
+  margin: 15px 0;
+}
+
+.each-info {
+  color: #424040;
+  align-content: center;
+  flex: 1;
+}
+
+.order-confirm {
+  right: 20px;
+  /*position: absolute;*/
+  height: 70%;
+  margin-left: auto;
+}
+
+.store-detail {
+  height: 70%;
+  margin-right: 10px!important;
+}
+
+.delete-store {
+  height: 70%;
+}
+
+#storeInsertButton {
+  margin: 10px;
+}
+
+.food-list {
+  display: grid;
+  grid-template-columns: 100px 200px 1fr;
+  gap: 10px;
+  position: relative;
+  height: 100px;
+  width: 100%;
+}
+
+.food-img img {
+  height: 100px;
+  width: 100px;
+  border: 1px dotted gray;
+  border-radius: 20px;
+  place-self: center!important;
+}
+
+.food-name {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.food-price, .food-maxCookingTime {
+  font-size: 12px;
+  font-weight: 500;
+  color: dimgray;
+
+}
+
+.food-info {
+  align-self: center;
+}
+
+.food-info-each {
+  list-style: none;
+  margin: 0;
+}
+
+.food-buttons {
+  place-self: center;
+}
+
+.food-insert {
+  display: flex;
+  justify-content: flex-end;
+  flex-shrink: 0;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 10px 27px 1px 27px;
+}
+
+.food-edit-button {
+  margin: 0 3px;
+}
+
+.food-delete-button {
+  margin: 0 5px;
+}
+
+.modal-dialog .food{
+  height: 90vh;
+}
+
+.modal-content .food{
+  height: 100%;
+}
+
+.modal-body {
+  overflow: auto;
+  height: 70%;
+}
+
+.popover-form {
+  display: flex;
+  position: absolute;
+  top: 12%;
+  right: 15%;
+  background-color: #ffffff;
+  border: 1px solid #ccc;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  z-index: 1060;
+  border-radius: 5px;
+  pointer-events: auto;
+}
+
+.hidden {
+  display: none;
+}
+
+
+.order-container {
+  margin: 20px;
+}
+
+.order-item {
+  border: 1px solid #ddd;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.order-actions {
+  display: flex;
+  gap: 10px;
+}
+
+.order-btn {
+  font-size: 14px;
+}
+
+
+#seller-footer {
+  display: flex;
+}
