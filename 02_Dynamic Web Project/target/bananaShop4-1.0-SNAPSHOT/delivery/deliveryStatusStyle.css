@@ -1,0 +1,70 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: 'Spoqa Han Sans Neo', 'sans-serif';
+  background-color: #F8F8F8;
+  color: #333333;
+}
+
+.back-btn {
+  margin: 20px;
+  font-size: 16px;
+  border-radius: 10px;
+  background-color: #f0f0f0;
+  border: 1px solid #ddd;
+  padding: 10px 15px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.back-btn:hover {
+  background-color: #e0e0e0;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+.delivery-container {
+  padding: 20px;
+  margin: 20px;
+  background-color: #ffffff;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+}
+
+.delivery-item {
+  padding: 15px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.delivery-item:last-child {
+  border-bottom: none;
+}
+
+.status-btn {
+  padding: 5px 10px;
+  border-radius: 8px;
+  font-size: 12px;
+  color: #fff;
+  border: none;
+  display: inline-block;
+}
+
+.status-btn.pending {
+  background-color: #dc3545; /* Red */
+}
+
+.status-btn.confirming {
+  background-color: #f44336; /* Bright Red */
+}
+
+.status-btn.confirmed {
+  background-color: #007bff;; /* Blue */
+}
+
+.status-btn.in-progress {
+  background-color: #ffc107; /* Yellow */
+}
+
+.status-btn.completed {
+  background-color: #28a745; /* Green */
+}

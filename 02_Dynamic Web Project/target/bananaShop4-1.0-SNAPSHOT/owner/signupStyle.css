@@ -1,0 +1,273 @@
+* {
+  font-family: 'Spoqa Han Sans Neo', 'sans-serif';
+}
+
+body {
+  background: linear-gradient(135deg, #1d006b, #3a0091, #0a0023);
+  background-size: cover;
+  background-attachment: fixed;
+  color: #ffffff;
+  overflow: hidden;
+  touch-action: manipulation; /* 확대 및 추가 제스처 비활성화 */
+}
+
+#welcome {
+  display: inline-block;
+  margin-right: 47%;
+}
+
+@keyframes scrollBackground {
+  0% { background-position: 0% 0%; }
+  100% { background-position: 100% 100%; }
+}
+
+/* 별 스타일 */
+.star {
+  position: absolute;
+  width: 2px;
+  height: 2px;
+  background: white;
+  border-radius: 50%;
+  opacity: 0.8;
+  animation: twinkling 2s infinite ease-in-out, flying 5s linear infinite;
+  box-shadow: 0 0 6px 2px rgba(255, 255, 255, 0.5);
+}
+
+/* 꼬리를 표현하기 위한 애니메이션 */
+@keyframes twinkling {
+  0%, 100% { opacity: 0.8; }
+  50% { opacity: 0.2; }
+}
+
+/* 별들이 앞으로 날아오는 효과 */
+@keyframes flying {
+  from {
+    transform: translateZ(0) scale(1);
+    opacity: 1;
+  }
+
+  to {
+    transform: translateZ(500px) scale(2); /* 점점 커지면서 다가오는 효과 */
+    opacity: 0;
+  }
+}
+
+/*@keyframes twinkling {*/
+/*  0%, 100% {*/
+/*    opacity: 0.8;*/
+/*    transform: scale(1);*/
+/*  }*/
+/*  50% {*/
+/*    opacity: 0.2;*/
+/*    transform: scale(0.8);*/
+/*  }*/
+/*}*/
+
+/* Glassmorphism 카드 */
+.container {
+  display: grid;
+  height: 100vh;
+  place-items: center;
+  width: 100%; /* 화면 너비에 맞게 */
+  max-width: 600px; /* 최대 너비 제한 */
+}
+
+.card {
+  display: block;
+  width: 100%; /* 화면 너비에 맞게 조정 */
+  max-width: 25rem; /* 최대 너비 제한 */
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 15px;
+  backdrop-filter: blur(15px);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  position: relative;
+  top: 0;
+  transition: top 1s ease-out;
+}
+
+.card.shifted {
+  top: 20px;
+}
+
+input select, textarea {
+  font-size: 16px; /* 최소 16px */
+}
+
+.card-title, .card-link, button {
+  color: #ffffff;
+}
+
+label {
+  color: dimgray;
+}
+
+.form-check-label {
+  color: whitesmoke;
+}
+
+.find_wrap {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  color: lightgray;
+  padding-left: 0px;
+}
+
+.find_wrap li {
+  font-size: small;
+  list-style-type: none;
+}
+
+.card-link:hover {
+  color: greenyellow;
+}
+
+.btn-outline-success {
+  height: 50px;
+  border-color: greenyellow;
+  color: #ffffff;
+}
+
+.btn-outline-success:hover {
+  background-color: #a6fa23;
+  color: black;
+}
+
+.btn-outline-success modal-open {
+  height: 30px;
+  border-color: greenyellow;
+  color: #ffffff;
+}
+
+.btn-outline-success modal-open:hover {
+  background-color: #a6fa23;
+  color: black;
+}
+
+.card-link {
+  font-size: small;
+  color: lightsteelblue;
+}
+
+.card-subtitle {
+  color: white!important;
+}
+
+.find_password {
+  margin-left: 90px;
+}
+
+/* 포커스 링 스타일 */
+input.list-group-item:focus {
+  z-index: 10; /* 높은 값으로 설정 */
+  outline: 2px solid #00c853; /* 초록색 포커스 링 */
+}
+
+.accordion-button {
+  height: 7vh;
+}
+
+.badge {
+  position: relative;
+  width: 100px;
+  left: 298px;
+  margin-bottom: 10px;
+  color: #198753!important;
+  top: 0px;
+  transition: top 1s ease-out;
+}
+
+.badge.shifted {
+  top: 20px;
+}
+
+.d-flex {
+  display: block!important;
+}
+
+#staticBackdropLabel {
+  color: whitesmoke;
+}
+.btn-outline-select {
+  height: 50px;
+  border-color: greenyellow;
+  color: #ffffff;
+}
+
+.btn-outline-select:hover {
+  background-color: #a6fa23;
+  color: black;
+}
+
+.modal-button {
+  height: 200px;
+  width: 200px;
+  justify-items: center;
+  align-content: center;
+  margin: 30px;
+  border-color: #584670;
+  color: darkgray;
+}
+
+.modal-content {
+  display: block;
+  width: 100%; /* 화면 너비에 맞게 조정 */
+  max-width: 25rem; /* 최대 너비 제한 */
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 15px;
+  backdrop-filter: blur(15px);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.modal-body {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+/* 투명 버튼 스타일 */
+.btn-transparent {
+  position: absolute;
+  z-index: 20;
+  top: 102px;
+  right: 30px;
+  background-color: transparent;
+  border: none;
+  color: #6c757d; /* 기본 색상 */
+  border:1px solid lightgray; /* 버튼 테두리 색상 */
+  cursor: pointer;
+}
+
+/* hover 상태에서 색상 변경 */
+.btn-transparent:hover {
+  background-color:#a6fa23; /* Bootstrap 기본 btn-primary 색상 */
+  color: black; /* 버튼 텍스트 색상 */
+  border-color: #a6fa23; /* 버튼 테두리 색상 */
+}
+
+/* badge 스타일 (선택 사항: 버튼이 배지처럼 보이도록 설정) */
+.badge-hover {
+  border-radius: 20px; /* 배지처럼 둥글게 */
+  padding: 0.2rem 0.5rem; /* 내부 간격 */
+  font-size: 0.875rem; /* 배지 크기 조정 */
+}
+
+.btn-successDup{
+  position: absolute!important;
+  z-index: 20!important ;
+  top: 102px!important ;
+  right: 30px!important ;
+  background-color: #28a745 !important;
+  color: white !important;
+}
+
+.btn-dangerDup{
+  position: absolute;
+  z-index: 20 ;
+  top: 102px ;
+  right: 30px ;
+  background-color: #dc3545 !important;
+  color: white !important;
+}
