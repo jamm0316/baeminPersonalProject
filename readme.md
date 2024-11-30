@@ -1,30 +1,31 @@
-![logo](https://github.com/user-attachments/assets/47ff9d4d-0a45-4ee4-957d-f4b8c975dbc1){: width="50px" height="50px"}
-### 배달의 민족 배달서비스
+<img src="https://github.com/user-attachments/assets/47ff9d4d-0a45-4ee4-957d-f4b8c975dbc1" width="50px" height="50px"> &nbsp;
+배달의 민족 배달서비스
+===
 
 
 바로 주문, 배로 배달, 현황 확인까지 한번에!
 Project Introduce in Canava
 
-<h2>Authors</h2>
+## Authors
 
 
-<h2>Tech Stack</h2>
-<p>Client: Javascript, HTML, CSS</p>
-<p></p>Server: Java, JSP</p>
-<p></p>Database: Oracle</p>
+## Tech Stack
+Client: Javascript, HTML, CSS
+Server: Java, JSP
+Database: Oracle
 
-<h2>Development Environment</h2>
-<code>IDE</code> IntelliJ Altimate
-<code>JDK</code> 21
-<code>OS</code> mac
+## Development Environment
+`IDE` IntelliJ Altimate
+`JDK` 21
+`OS` mac
 
-<h2>Archetecture</h2>
+## Archetecture
 
-<h2>Database</h2>
+## Database
 
-<h2>Directory Structure</h2>
-<h3>java</h3>
-<pre>
+## Directory Structure
+### java
+```
 java
 ├── DBUtil
 │   ├── DBUtil.java
@@ -98,10 +99,10 @@ java
 └── store
     ├── StoreRepository.java
     └── StoreService.java
-</pre>
+```
 
-<h3>web</h3>
-<pre>
+### web
+```
 webapp
 ├── META-INF
 │   └── context.xml
@@ -182,4 +183,4 @@ webapp
     ├── mainCategoryStyle.css
     ├── resultPassword.jsp
     └── updateStyle.css
-</pre>
+```
