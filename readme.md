@@ -1,7 +1,7 @@
-<div>
-<img src="https://github.com/user-attachments/assets/47ff9d4d-0a45-4ee4-957d-f4b8c975dbc1" width="50" height="50" alt="배달의민족로고"/>  
-<span><h1>배달의 민족 배달서비스</h1></span>
-</div>
+![logo](https://github.com/user-attachments/assets/47ff9d4d-0a45-4ee4-957d-f4b8c975dbc1){: width="50px" height="50px"}
+### 배달의 민족 배달서비스
+
+
 바로 주문, 배로 배달, 현황 확인까지 한번에!
 Project Introduce in Canava
 
