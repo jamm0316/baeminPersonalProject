@@ -1,27 +1,23 @@
 <img src="https://github.com/user-attachments/assets/47ff9d4d-0a45-4ee4-957d-f4b8c975dbc1" width="50px" height="50px"> &nbsp;
 배달의 민족 배달서비스
 ===
-
-## Contents
-```
-1. [Authors](#authors)
-2. [Tech Stack](#tech-stack)
-3. [Development Environment](#development-environment)
-4. [Archetecture](#archetecture)
-5. [Database](#database)
-6. [Directory Structure](#directory-structure)
-  - [java](#java)
-  - [web](#web)
-7. [API Reference](#api-reference)
-  - [SignUp](#signup)
-```
-
-
 바로 주문, 배로 배달, 현황 확인까지 한번에!
 Project Introduce in Canava
 
-## Authors
+## Contents
+> [!NOTE]
+> 1. #### [Authors](#authors)
+> 2. #### [Tech Stack](#tech-stack)
+> 3. #### [Development Environment](#development-environment)
+> 4. #### [Archetecture](#archetecture)
+> 5. #### [Database](#database)
+> 6. #### [Directory Structure](#directory-structure)
+>   - [java](#java)
+>   - [web](#web)
+> 7. #### [API Reference](#api-reference)
+>  - [SignUp](#signup)
 
+## Authors
 
 ## Tech Stack
 Client: Javascript, HTML, CSS
