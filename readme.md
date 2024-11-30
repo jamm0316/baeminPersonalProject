@@ -24,7 +24,7 @@ Database: Oracle
 
 <h2>Directory Structure</h2>
 <h3>java</h3>
-<code>
+```
 java
 ├── DBUtil
 │   ├── DBUtil.java
@@ -98,10 +98,9 @@ java
 └── store
     ├── StoreRepository.java
     └── StoreService.java
-</code>
-
+```
 <h3>web</h3>
-<code>
+```
 webapp
 ├── META-INF
 │   └── context.xml
@@ -182,5 +181,4 @@ webapp
     ├── mainCategoryStyle.css
     ├── resultPassword.jsp
     └── updateStyle.css
-
-</code>
+```
