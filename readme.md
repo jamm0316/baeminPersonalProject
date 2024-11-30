@@ -3,6 +3,7 @@
 ===
 
 ## Contents
+```
 1. [Authors](#authors)
 2. [Tech Stack](#tech-stack)
 3. [Development Environment](#development-environment)
@@ -13,6 +14,7 @@
   - [web](#web)
 7. [API Reference](#api-reference)
   - [SignUp](#signup)
+```
 
 
 바로 주문, 배로 배달, 현황 확인까지 한번에!
