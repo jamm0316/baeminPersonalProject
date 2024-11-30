@@ -11,11 +11,11 @@ Project Introduce in Canava
 > 3. [Development Environment](#development-environment)
 > 4. [Archetecture](#archetecture)
 > 5. [Database](#database)
-> 6. [Directory Structure](#directory-structure)
->   - [java](#java)
->   - [web](#web)
-> 7. [API Reference](#api-reference)
->  - [SignUp](#signup)
+> 6. [Directory Structure](#directory-structure)  
+>     - [java](#java)
+>     - [web](#web)
+> 7. [API Reference](#api-reference)  
+>     - [SignUp](#signup)
 
 ## Authors
 
