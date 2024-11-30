@@ -184,3 +184,15 @@ webapp
     ├── resultPassword.jsp
     └── updateStyle.css
 ```
+
+## API Reference
+### SignUp
+**customer Signup Page**
+```
+  GET /customer/signup.do
+```
+
+**owner Signup Page**
+```
+  GET /owner/signup.do
+```
