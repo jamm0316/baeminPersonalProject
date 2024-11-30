@@ -9,9 +9,9 @@ Project Introduce in Canava
 
 
 <h2>Tech Stack</h2>
-Client: Javascript, HTML, CSS
-Server: Java, JSP
-Database: Oracle
+<p>Client: Javascript, HTML, CSS</p>
+<p></p>Server: Java, JSP</p>
+<p></p>Database: Oracle</p>
 
 <h2>Development Environment</h2>
 <code>IDE</code> IntelliJ Altimate
@@ -24,7 +24,7 @@ Database: Oracle
 
 <h2>Directory Structure</h2>
 <h3>java</h3>
-```
+<pre>
 java
 ├── DBUtil
 │   ├── DBUtil.java
@@ -98,9 +98,10 @@ java
 └── store
     ├── StoreRepository.java
     └── StoreService.java
-```
+</pre>
+
 <h3>web</h3>
-```
+<pre>
 webapp
 ├── META-INF
 │   └── context.xml
@@ -181,4 +182,4 @@ webapp
     ├── mainCategoryStyle.css
     ├── resultPassword.jsp
     └── updateStyle.css
-```
+</pre>
