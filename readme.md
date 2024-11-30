@@ -2,18 +2,17 @@
 배달의 민족 배달서비스
 ===
 
-- [Authors](#authors)
-- [Tech Stack](#tech-stack)
-- [Development Environment](#development-environment)
-- [Archetecture](#archetecture)
-- [Database](#database)
-- [Directory Structure](#directory-structure)
-  * [java](#java)
-  * [web](#web)
-- [API Reference](#api-reference)
-  * [SignUp](#signup)
-
-<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
+## Contents
+1. [Authors](#authors)
+2. [Tech Stack](#tech-stack)
+3. [Development Environment](#development-environment)
+4. [Archetecture](#archetecture)
+5. [Database](#database)
+6. [Directory Structure](#directory-structure)
+  - [java](#java)
+  - [web](#web)
+7. [API Reference](#api-reference)
+  - [SignUp](#signup)
 
 
 바로 주문, 배로 배달, 현황 확인까지 한번에!
