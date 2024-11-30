@@ -6,15 +6,15 @@ Project Introduce in Canava
 
 ## Contents
 > [!NOTE]
-> 1. #### [Authors](#authors)
-> 2. #### [Tech Stack](#tech-stack)
-> 3. #### [Development Environment](#development-environment)
-> 4. #### [Archetecture](#archetecture)
-> 5. #### [Database](#database)
-> 6. #### [Directory Structure](#directory-structure)
+> 1. [Authors](#authors)
+> 2. [Tech Stack](#tech-stack)
+> 3. [Development Environment](#development-environment)
+> 4. [Archetecture](#archetecture)
+> 5. [Database](#database)
+> 6. [Directory Structure](#directory-structure)
 >   - [java](#java)
 >   - [web](#web)
-> 7. #### [API Reference](#api-reference)
+> 7. [API Reference](#api-reference)
 >  - [SignUp](#signup)
 
 ## Authors
